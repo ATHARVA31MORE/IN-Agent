@@ -1,0 +1,4256 @@
+{
+  "CASE_20250627_221654": {
+    "case_id": "CASE_20250627_221654",
+    "claim_type": "policy_document",
+    "policy_number": "No",
+    "success_probability": 0.485,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-27T22:16:54.281261",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.485,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.41,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 39,
+        "maximum_timeline_days": 78
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.34400000000000003,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250627_221818": {
+    "case_id": "CASE_20250627_221818",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.5499999999999999,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-27T22:18:18.408414",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "was driving",
+        "vehicle in"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.5499999999999999,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.42666666666666664,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250627_221917": {
+    "case_id": "CASE_20250627_221917",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.5499999999999999,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-27T22:19:17.555158",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "was driving",
+        "vehicle in"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.5499999999999999,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.42666666666666664,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250627_221926": {
+    "case_id": "CASE_20250627_221926",
+    "claim_type": "policy_document",
+    "policy_number": "No",
+    "success_probability": 0.485,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-27T22:19:26.436962",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.485,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.41,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 39,
+        "maximum_timeline_days": 78
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.34400000000000003,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250627_221935": {
+    "case_id": "CASE_20250627_221935",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.5499999999999999,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-27T22:19:35.355586",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "was driving",
+        "vehicle in"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.5499999999999999,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.42666666666666664,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250627_222029": {
+    "case_id": "CASE_20250627_222029",
+    "claim_type": "policy_document",
+    "policy_number": "No",
+    "success_probability": 0.485,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-27T22:20:29.703697",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.485,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.41,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 39,
+        "maximum_timeline_days": 78
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.34400000000000003,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001014": {
+    "case_id": "CASE_20250628_001014",
+    "claim_type": "policy_document",
+    "policy_number": "No",
+    "success_probability": 0.48,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:10:14.632673",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.48,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.41,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 39,
+        "maximum_timeline_days": 78
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.342,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001026": {
+    "case_id": "CASE_20250628_001026",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:10:26.621592",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "vehicle in",
+        "was driving"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001033": {
+    "case_id": "CASE_20250628_001033",
+    "claim_type": "policy_document",
+    "policy_number": "No",
+    "success_probability": 0.48,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:10:33.018763",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.48,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.41,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 39,
+        "maximum_timeline_days": 78
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.342,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001740": {
+    "case_id": "CASE_20250628_001740",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:17:40.110878",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "vehicle in",
+        "was driving"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001748": {
+    "case_id": "CASE_20250628_001748",
+    "claim_type": "denial_letter",
+    "policy_number": "No",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:17:48.163656",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001805": {
+    "case_id": "CASE_20250628_001805",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:18:05.382189",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "vehicle in",
+        "was driving"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001812": {
+    "case_id": "CASE_20250628_001812",
+    "claim_type": "denial_letter",
+    "policy_number": "No",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:18:12.369901",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_001821": {
+    "case_id": "CASE_20250628_001821",
+    "claim_type": "denial_letter",
+    "policy_number": "No",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:18:21.607969",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "No"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_002546": {
+    "case_id": "CASE_20250628_002546",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:25:46.676666",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_002557": {
+    "case_id": "CASE_20250628_002557",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:25:57.338066",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "vehicle in",
+        "was driving"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_002620": {
+    "case_id": "CASE_20250628_002620",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:26:20.492827",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_002628": {
+    "case_id": "CASE_20250628_002628",
+    "claim_type": "policy_document",
+    "policy_number": "DOCUMENT",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:26:28.104016",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "DOCUMENT"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "vehicle in",
+        "was driving"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_002909": {
+    "case_id": "CASE_20250628_002909",
+    "claim_type": "policy_document",
+    "policy_number": "1234567890",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:29:09.947112",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "was driving",
+        "vehicle in"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_002915": {
+    "case_id": "CASE_20250628_002915",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:29:15.650232",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_003025": {
+    "case_id": "CASE_20250628_003025",
+    "claim_type": "policy_document",
+    "policy_number": "1234567890",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:30:25.910879",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "was driving",
+        "vehicle in"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Cooperative Clarification",
+      "approach": "collaborative",
+      "confidence": 0.4266666666666667,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_003059": {
+    "case_id": "CASE_20250628_003059",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:30:59.927972",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_003449": {
+    "case_id": "CASE_20250628_003449",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:34:49.005215",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_004248": {
+    "case_id": "CASE_20250628_004248",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:42:48.265097",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_004633": {
+    "case_id": "CASE_20250628_004633",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:46:33.477276",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_004856": {
+    "case_id": "CASE_20250628_004856",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:48:56.811226",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_005123": {
+    "case_id": "CASE_20250628_005123",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:51:23.511468",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_005241": {
+    "case_id": "CASE_20250628_005241",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T00:52:41.860427",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_010506": {
+    "case_id": "CASE_20250628_010506",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T01:05:06.198434",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_010732": {
+    "case_id": "CASE_20250628_010732",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T01:07:32.672950",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_011244": {
+    "case_id": "CASE_20250628_011244",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T01:12:44.516503",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Collaborative Resolution",
+      "approach": "collaborative",
+      "confidence": 0.378,
+      "key_leverage_points": [],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Schedule discussion meeting",
+        "Propose joint fact-finding process",
+        "Explore creative resolution options",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 4,
+        "estimated_duration_days": 38,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          },
+          {
+            "round": 4,
+            "objective": "Reach final resolution or escalate",
+            "key_actions": [
+              "Finalize settlement terms",
+              "Document agreement details",
+              "Prepare escalation if necessary"
+            ],
+            "expected_outcome": "Final settlement or escalation decision",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_012613": {
+    "case_id": "CASE_20250628_012613",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T01:26:13.473853",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Policy Interpretation Challenge",
+      "approach": "assertive",
+      "confidence": 0.5013333333333333,
+      "key_leverage_points": [
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events",
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 31,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_012912": {
+    "case_id": "CASE_20250628_012912",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T01:29:12.957715",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Policy Interpretation Challenge",
+      "approach": "assertive",
+      "confidence": 0.62,
+      "key_leverage_points": [
+        "Questionable denial reasoning requires clarification",
+        "Multiple coverage types may provide alternative claim paths"
+      ],
+      "recommended_actions": [
+        "Request detailed explanation of denial reasoning",
+        "Gather additional supporting documentation",
+        "Review policy language for coverage confirmation",
+        "Build stronger case foundation before major negotiations"
+      ],
+      "legal_precedents": [
+        "State Farm v. Campbell: Insurer bad faith liability"
+      ],
+      "policy_clauses": [
+        "All risks coverage includes unlisted perils",
+        "Occurrence-based triggers cover manifestation events",
+        "Exclusions must be clear and unambiguous",
+        "Ambiguous exclusions interpreted against insurer"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 31,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case and establish position",
+            "key_actions": [
+              "Submit comprehensive initial response",
+              "Present key evidence and documentation",
+              "State desired outcome clearly"
+            ],
+            "expected_outcome": "Acknowledgment of case merit and engagement",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Strengthen case with additional evidence",
+            "key_actions": [
+              "Provide supplemental documentation",
+              "Address any insurer concerns",
+              "Reference similar cases and precedents"
+            ],
+            "expected_outcome": "Movement toward settlement discussion",
+            "timeline_days": 14
+          },
+          {
+            "round": 3,
+            "objective": "Engage in active settlement negotiation",
+            "key_actions": [
+              "Present counter-offers",
+              "Negotiate specific terms",
+              "Explore compromise solutions"
+            ],
+            "expected_outcome": "Concrete settlement proposal",
+            "timeline_days": 10
+          }
+        ]
+      }
+    },
+    "file_path": null
+  }
+}

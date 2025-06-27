@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+PyMuPDF
+openai
+pandas
+numpy
+scikit-learn
+spacy
+python-multipart

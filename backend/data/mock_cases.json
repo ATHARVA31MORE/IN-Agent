@@ -1,0 +1,63 @@
+{
+  "auto_collision": [
+    {
+      "case_id": "AC001",
+      "description": "Rear-end collision with coverage dispute",
+      "policy_clauses": [
+        "4.2.1",
+        "7.3.2"
+      ],
+      "incident_type": "collision",
+      "initial_offer": 2500,
+      "final_settlement": 4200,
+      "strategy_used": "policy_interpretation",
+      "success_factors": [
+        "clear liability",
+        "comprehensive coverage",
+        "good documentation"
+      ],
+      "timeline_days": 45,
+      "adjuster_profile": "experienced",
+      "negotiation_rounds": 3
+    },
+    {
+      "case_id": "AC002",
+      "description": "Total loss valuation dispute",
+      "policy_clauses": [
+        "5.1.1"
+      ],
+      "incident_type": "collision",
+      "initial_offer": 8500,
+      "final_settlement": 12300,
+      "strategy_used": "market_value_comparison",
+      "success_factors": [
+        "recent comparable sales",
+        "vehicle condition documentation"
+      ],
+      "timeline_days": 62,
+      "adjuster_profile": "junior",
+      "negotiation_rounds": 4
+    }
+  ],
+  "home_damage": [
+    {
+      "case_id": "HD001",
+      "description": "Water damage from burst pipe",
+      "policy_clauses": [
+        "12.4.1",
+        "12.4.3"
+      ],
+      "incident_type": "water_damage",
+      "initial_offer": 3200,
+      "final_settlement": 5800,
+      "strategy_used": "coverage_scope_expansion",
+      "success_factors": [
+        "expert restoration quote",
+        "policy language ambiguity"
+      ],
+      "timeline_days": 35,
+      "adjuster_profile": "experienced",
+      "negotiation_rounds": 2
+    }
+  ]
+}
