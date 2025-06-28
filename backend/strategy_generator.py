@@ -1,523 +1,454 @@
 import logging
-from typing import Dict, List, Any
-from models import ExtractedInfo, AnalysisResult, Strategy, StrategyApproach, NegotiationPlan, NegotiationRound
-from sentence_transformers import SentenceTransformer
-import chromadb
 import json
-from pathlib import Path
+import os
+import time
+from typing import Dict, List, Any, Optional
+from enum import Enum
+import asyncio
+import google.generativeai as genai
+from models import ExtractedInfo, AnalysisResult, Strategy, StrategyApproach, NegotiationPlan, NegotiationRound
 
-class StrategyGenerator:
-    def __init__(self):
+class AIProvider(Enum):
+    GEMINI = "gemini"
+
+class ModelStatus(Enum):
+    INITIALIZING = "initializing"
+    READY = "ready"
+    ERROR = "error"
+    GENERATING = "generating"
+
+class OptimizedStrategyGenerator:
+    def __init__(self, provider: str = "gemini"):
         self.logger = logging.getLogger(__name__)
-        self.strategy_templates = self._load_strategy_templates()
-        self.legal_precedents = self._load_legal_precedents()
-        self.policy_clause_library = self._load_policy_clauses()
+        self.provider = AIProvider.GEMINI  # Only support Gemini now
+        self.status = ModelStatus.INITIALIZING
+        self.status_message = "Starting initialization..."
         
-        # Initialize ChromaDB for similarity search
-        self.chroma_client = chromadb.Client()
-        self.similar_cases_collection = self.chroma_client.create_collection("similar_cases")
-        self._load_similar_cases_to_chroma()
+        # Get API key from environment
+        self.api_key = os.getenv('GEMINI_API_KEY')
+        if not self.api_key:
+            raise ValueError("GEMINI_API_KEY environment variable is required")
         
-        # Initialize sentence transformer model
-        self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        # Initialize Gemini client
+        self.initialization_time = None
+        self.last_generation_time = None
+        
+        # Load insurance domain knowledge for strategies
+        self.insurance_knowledge = self._load_insurance_knowledge()
+        
+        # Initialize Gemini
+        self._initialize_gemini()
 
-    def _load_similar_cases_to_chroma(self):
-        """Load similar cases into ChromaDB for similarity search"""
+    def get_status(self) -> Dict[str, Any]:
+        """Get current model status and progress"""
+        return {
+            "status": self.status.value,
+            "message": self.status_message,
+            "provider": self.provider.value,
+            "model_ready": self.status == ModelStatus.READY,
+            "initialization_time": self.initialization_time,
+            "last_generation_time": self.last_generation_time,
+            "memory_usage": {"type": "api", "local_memory": False}
+        }
+
+    def _initialize_gemini(self):
+        """Initialize Gemini API client"""
+        start_time = time.time()
+        
         try:
-            cases = json.loads(Path("data/similar_cases.json").read_text())
-            for idx, case in enumerate(cases):
-                self.similar_cases_collection.add(
-                    documents=[case["description"]],
-                    metadatas=[{"strategy": case["strategy"], "outcome": case["outcome"]}],
-                    ids=[str(idx)]
-                )
+            self.status = ModelStatus.INITIALIZING
+            self.status_message = "Configuring Gemini API..."
+            
+            # Configure Gemini
+            genai.configure(api_key=self.api_key)
+            
+            # Initialize the model
+            self.model = genai.GenerativeModel('gemini-1.5-flash')
+            
+            # Test the connection
+            self._test_generation()
+            
+            self.initialization_time = time.time() - start_time
+            self.status = ModelStatus.READY
+            self.status_message = f"Gemini API ready! Initialized in {self.initialization_time:.1f}s"
+            
+            self.logger.info(f"Successfully initialized Gemini API in {self.initialization_time:.1f}s")
+            
         except Exception as e:
-            self.logger.error(f"Error loading similar cases to ChromaDB: {str(e)}")
+            self.logger.error(f"Failed to initialize Gemini API: {str(e)}")
+            self.status = ModelStatus.ERROR
+            self.status_message = f"Failed to initialize Gemini: {str(e)}"
 
-    def _find_similar_cases(self, text: str) -> List[Dict[str, Any]]:
-        """Find similar cases using ChromaDB"""
+    def _test_generation(self):
+        """Test Gemini API to ensure it's working"""
         try:
-            query_embedding = self.model.encode(text)
-            results = self.similar_cases_collection.query(
-                query_embeddings=[query_embedding.tolist()],
-                n_results=5
-            )
-            return [
-                {
-                    "strategy": results["metadatas"][0][i]["strategy"],
-                    "outcome": results["metadatas"][0][i]["outcome"],
-                    "document": results["documents"][0][i]
-                }
-                for i in range(len(results["ids"][0]))
+            test_prompt = "Generate a brief test strategy response:"
+            response = self.model.generate_content(test_prompt)
+            if response.text:
+                self.logger.info("Gemini API test generation successful")
+            else:
+                raise Exception("Empty response from Gemini API")
+        except Exception as e:
+            self.logger.error(f"Gemini API test failed: {str(e)}")
+            raise
+
+    def _load_insurance_knowledge(self) -> Dict[str, Any]:
+        """Load insurance domain knowledge for AI context"""
+        return {
+            "legal_principles": [
+                "Duty of good faith and fair dealing",
+                "Reasonable expectations doctrine", 
+                "Contra proferentem (ambiguity against drafter)",
+                "Estoppel and waiver principles"
+            ],
+            "negotiation_tactics": [
+                "Documentation requests",
+                "Policy interpretation challenges",
+                "Precedent citations",
+                "Market value comparisons",
+                "Timeline pressure"
+            ],
+            "common_denial_reasons": [
+                "Policy exclusions",
+                "Coverage limitations", 
+                "Insufficient documentation",
+                "Pre-existing conditions",
+                "Late reporting"
             ]
-        except Exception as e:
-            self.logger.error(f"Error finding similar cases: {str(e)}")
-            return []
+        }
 
     async def generate_strategy(self, extracted_info: ExtractedInfo, 
-                              analysis: AnalysisResult) -> Strategy:
-        """Generate optimal negotiation strategy"""
+                              analysis: AnalysisResult, 
+                              timeout: int = 30) -> Strategy:
+        """Generate strategy with timeout and status tracking"""
+        
+        # Check if API is ready
+        if self.status != ModelStatus.READY:
+            if self.status == ModelStatus.ERROR:
+                self.logger.warning("Gemini API failed to initialize, using fallback strategy")
+                return self._create_fallback_strategy(extracted_info, analysis)
+            else:
+                self.logger.info(f"Gemini API not ready (status: {self.status.value}), waiting...")
+                # Wait for API to be ready (with timeout)
+                wait_time = 0
+                while self.status != ModelStatus.READY and wait_time < timeout:
+                    await asyncio.sleep(1)
+                    wait_time += 1
+                
+                if self.status != ModelStatus.READY:
+                    self.logger.warning(f"Gemini API not ready after {timeout}s, using fallback")
+                    return self._create_fallback_strategy(extracted_info, analysis)
+        
         try:
-            # Select primary strategy approach
-            approach = self._select_strategy_approach(extracted_info, analysis)
+            self.status = ModelStatus.GENERATING
+            self.status_message = "Generating strategy with Gemini..."
+            start_time = time.time()
             
-            # Get strategy template
-            strategy_template = self._get_strategy_template(approach, extracted_info.document_type)
+            # Create prompt
+            strategy_prompt = self._create_strategy_prompt(extracted_info, analysis)
             
-            # Identify leverage points
-            leverage_points = self._identify_leverage_points(extracted_info, analysis)
-            
-            # Generate recommended actions
-            recommended_actions = self._generate_recommended_actions(
-                extracted_info, analysis, approach
+            # Generate with timeout
+            strategy_response = await asyncio.wait_for(
+                self._generate_gemini_strategy(strategy_prompt),
+                timeout=timeout
             )
             
-            # Find relevant legal precedents
-            legal_precedents = self._find_relevant_precedents(extracted_info)
+            # Parse response
+            strategy = self._parse_strategy_response(strategy_response, extracted_info, analysis)
             
-            # Identify applicable policy clauses
-            policy_clauses = self._identify_policy_clauses(extracted_info)
+            self.last_generation_time = time.time() - start_time
+            self.status = ModelStatus.READY
+            self.status_message = f"Strategy generated in {self.last_generation_time:.1f}s"
             
-            # Create negotiation plan
-            negotiation_plan = self._create_negotiation_plan(
-                extracted_info, analysis, approach
-            )
+            return strategy
             
-            # Calculate strategy confidence
-            confidence = self._calculate_strategy_confidence(
-                extracted_info, analysis, leverage_points
-            )
+        except asyncio.TimeoutError:
+            self.logger.warning(f"Strategy generation timed out after {timeout}s")
+            self.status = ModelStatus.READY
+            self.status_message = "Generation timed out, using fallback"
+            return self._create_fallback_strategy(extracted_info, analysis)
+        except Exception as e:
+            self.logger.error(f"Error generating Gemini strategy: {str(e)}")
+            self.status = ModelStatus.READY
+            self.status_message = f"Generation error: {str(e)}"
+            return self._create_fallback_strategy(extracted_info, analysis)
+
+    def _create_strategy_prompt(self, extracted_info: ExtractedInfo, 
+                               analysis: AnalysisResult) -> str:
+        """Create optimized prompt for Gemini strategy generation"""
+        
+        # Handle dict vs object access
+        if isinstance(extracted_info, dict):
+            document_type = extracted_info.get('document_type', 'UNKNOWN')
+            policy_details = extracted_info.get('policy_details', {})
+            coverage_types = extracted_info.get('coverage_types', [])
+            monetary_amounts = extracted_info.get('monetary_amounts', [])
+            denial_reasons = extracted_info.get('denial_reasons', [])
+        else:
+            document_type = extracted_info.document_type.value if hasattr(extracted_info.document_type, 'value') else str(extracted_info.document_type)
+            policy_details = extracted_info.policy_details
+            coverage_types = extracted_info.coverage_types
+            monetary_amounts = extracted_info.monetary_amounts
+            denial_reasons = extracted_info.denial_reasons or []
+
+        if isinstance(analysis, dict):
+            success_probability = analysis.get('success_probability', 0)
+            strength_factors = analysis.get('strength_factors', [])
+            risk_factors = analysis.get('risk_factors', [])
+        else:
+            success_probability = analysis.success_probability
+            strength_factors = analysis.strength_factors
+            risk_factors = analysis.risk_factors
+        
+        # Create comprehensive prompt for Gemini
+        prompt = f"""You are an expert insurance negotiation strategist. Create a detailed negotiation strategy in JSON format based on the following case details:
+
+CASE DETAILS:
+- Document Type: {document_type}
+- Policy Number: {policy_details.get('policy_number', 'Not provided')}
+- Insurance Company: {policy_details.get('insurer', 'Insurance Company')}
+- Success Probability: {success_probability}%
+- Coverage Types: {', '.join(coverage_types[:3]) if coverage_types else 'General coverage'}
+- Claim Amount: {', '.join(map(str, monetary_amounts[:2])) if monetary_amounts else 'Under review'}
+- Denial Reasons (if applicable): {', '.join(denial_reasons[:2]) if denial_reasons else 'None provided'}
+
+STRENGTHS: {', '.join(strength_factors[:3]) if strength_factors else 'None identified'}
+RISKS: {', '.join(risk_factors[:2]) if risk_factors else 'None identified'}
+
+REQUIREMENTS:
+1. Generate a complete negotiation strategy in JSON format
+2. Include strategy name, approach, confidence score
+3. List key leverage points (3-5 items)
+4. Provide recommended actions (3-5 items)
+5. Include relevant legal precedents (2-3 items)
+6. Reference specific policy clauses (2-3 items)
+7. Create a basic negotiation plan with 2-3 rounds
+8. Use professional but assertive language
+
+LEGAL PRINCIPLES TO CONSIDER:
+- Duty of good faith and fair dealing
+- Reasonable expectations doctrine
+- Contra proferentem principle
+- State insurance regulations
+
+OUTPUT FORMAT:
+{{
+    "strategy_name": "Strategic approach name",
+    "approach": "ASSERTIVE|COLLABORATIVE|AGGRESSIVE",
+    "confidence": 0.0-1.0,
+    "key_leverage_points": ["point1", "point2", "point3"],
+    "recommended_actions": ["action1", "action2", "action3"],
+    "legal_precedents": ["precedent1", "precedent2"],
+    "policy_clauses": ["clause1", "clause2"],
+    "negotiation_plan": {{
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+            {{
+                "round": 1,
+                "objective": "Initial presentation",
+                "key_actions": ["action1", "action2"],
+                "expected_outcome": "Response received",
+                "timeline_days": 7
+            }},
+            {{
+                "round": 2,
+                "objective": "Final negotiation",
+                "key_actions": ["action1", "action2"],
+                "expected_outcome": "Settlement",
+                "timeline_days": 7
+            }}
+        ]
+    }}
+}}
+
+Please generate the strategy now:"""
+        
+        return prompt
+
+    async def _generate_gemini_strategy(self, prompt: str) -> str:
+        """Generate strategy using Gemini API with async wrapper"""
+        
+        def generate_sync():
+            try:
+                # Configure generation parameters
+                generation_config = genai.types.GenerationConfig(
+                    temperature=0.7,
+                    top_p=0.9,
+                    top_k=40,
+                    max_output_tokens=1000,
+                    stop_sequences=None
+                )
+                
+                # Generate content
+                response = self.model.generate_content(
+                    prompt,
+                    generation_config=generation_config
+                )
+                
+                if not response.text:
+                    raise Exception("Empty response from Gemini API")
+                
+                self.logger.info(f"Generated strategy response length: {len(response.text)}")
+                return response.text
+                
+            except Exception as e:
+                self.logger.error(f"Gemini API strategy generation error: {str(e)}")
+                raise
+        
+        # Run in thread to avoid blocking
+        loop = asyncio.get_event_loop()
+        response = await loop.run_in_executor(None, generate_sync)
+        return response
+
+    def _parse_strategy_response(self, ai_response: str, extracted_info: ExtractedInfo, 
+                                analysis: AnalysisResult) -> Strategy:
+        """Parse AI response with better error handling"""
+        try:
+            # Clean response
+            cleaned_response = ai_response.strip()
+            
+            # Extract JSON
+            start_idx = cleaned_response.find('{')
+            end_idx = cleaned_response.rfind('}')
+            
+            if start_idx == -1 or end_idx == -1:
+                self.logger.warning("No JSON found in response")
+                return self._create_fallback_strategy(extracted_info, analysis)
+            
+            json_str = cleaned_response[start_idx:end_idx+1]
+            
+            try:
+                strategy_data = json.loads(json_str)
+            except json.JSONDecodeError as e:
+                self.logger.warning(f"JSON parse error: {str(e)}")
+                return self._create_fallback_strategy(extracted_info, analysis)
+            
+            # Convert to Strategy object with defaults
+            approach_str = strategy_data.get("approach", "ASSERTIVE")
+            try:
+                approach = StrategyApproach(approach_str)
+            except ValueError:
+                approach = StrategyApproach.ASSERTIVE
+            
+            # Create negotiation plan from response or use default
+            if "negotiation_plan" in strategy_data:
+                np_data = strategy_data["negotiation_plan"]
+                rounds = [
+                    NegotiationRound(
+                        round=round_data["round"],
+                        objective=round_data.get("objective", ""),
+                        key_actions=round_data.get("key_actions", []),
+                        expected_outcome=round_data.get("expected_outcome", ""),
+                        timeline_days=round_data.get("timeline_days", 7)
+                    )
+                    for round_data in np_data.get("rounds", [])
+                ]
+                
+                negotiation_plan = NegotiationPlan(
+                    total_rounds=np_data.get("total_rounds", 2),
+                    estimated_duration_days=np_data.get("estimated_duration_days", 14),
+                    rounds=rounds
+                )
+            else:
+                # Fallback plan
+                negotiation_plan = NegotiationPlan(
+                    total_rounds=2,
+                    estimated_duration_days=14,
+                    rounds=[
+                        NegotiationRound(
+                            round=1,
+                            objective="Present case",
+                            key_actions=["Submit documentation", "Present arguments"],
+                            expected_outcome="Initial response",
+                            timeline_days=7
+                        ),
+                        NegotiationRound(
+                            round=2,
+                            objective="Negotiate settlement",
+                            key_actions=["Address concerns", "Finalize agreement"],
+                            expected_outcome="Settlement",
+                            timeline_days=7
+                        )
+                    ]
+                )
             
             return Strategy(
-                name=strategy_template['name'],
+                name=strategy_data.get("strategy_name", "AI Generated Strategy"),
                 approach=approach,
-                confidence=confidence,
-                key_leverage_points=leverage_points,
-                recommended_actions=recommended_actions,
-                legal_precedents=legal_precedents,
-                policy_clauses=policy_clauses,
+                confidence=float(strategy_data.get("confidence", 0.7)),
+                key_leverage_points=strategy_data.get("key_leverage_points", []),
+                recommended_actions=strategy_data.get("recommended_actions", []),
+                legal_precedents=strategy_data.get("legal_precedents", []),
+                policy_clauses=strategy_data.get("policy_clauses", []),
                 negotiation_plan=negotiation_plan
             )
             
         except Exception as e:
-            self.logger.error(f"Error generating strategy: {str(e)}")
-            raise
+            self.logger.error(f"Error parsing strategy: {str(e)}")
+            return self._create_fallback_strategy(extracted_info, analysis)
 
-    def _load_strategy_templates(self) -> Dict[str, Any]:
-        """Load strategy templates for different approaches"""
-        return {
-            StrategyApproach.AGGRESSIVE: {
-                "denial_letter": {
-                    "name": "Aggressive Policy Challenge",
-                    "description": "Direct confrontation of denial with strong legal backing",
-                    "tactics": ["immediate_escalation", "legal_threat", "deadline_pressure"]
-                },
-                "settlement_offer": {
-                    "name": "Aggressive Counter-Offer",
-                    "description": "Strong rejection with significantly higher counter-proposal",
-                    "tactics": ["market_comparisons", "expert_valuations", "precedent_citing"]
-                },
-                "policy_document": {
-                    "name": "Coverage Expansion Demand",
-                    "description": "Aggressive interpretation of policy language",
-                    "tactics": ["ambiguity_exploitation", "broad_interpretation", "industry_standards"]
-                }
-            },
-            StrategyApproach.COLLABORATIVE: {
-                "denial_letter": {
-                    "name": "Collaborative Resolution",
-                    "description": "Partnership approach to find mutually acceptable solution",
-                    "tactics": ["information_sharing", "joint_problem_solving", "compromise_seeking"]
-                },
-                "settlement_offer": {
-                    "name": "Collaborative Negotiation",
-                    "description": "Working together to reach fair settlement",
-                    "tactics": ["transparent_communication", "incremental_adjustments", "mutual_benefits"]
-                },
-                "policy_document": {
-                    "name": "Cooperative Clarification",
-                    "description": "Joint review of policy terms for mutual understanding",
-                    "tactics": ["clarification_requests", "expert_consultation", "precedent_review"]
-                }
-            },
-            StrategyApproach.DATA_DRIVEN: {
-                "denial_letter": {
-                    "name": "Evidence-Based Challenge",
-                    "description": "Using data and documentation to overturn denial",
-                    "tactics": ["statistical_analysis", "expert_reports", "documentation_review"]
-                },
-                "settlement_offer": {
-                    "name": "Market Value Documentation",
-                    "description": "Comprehensive data analysis to justify higher settlement",
-                    "tactics": ["market_research", "comparable_analysis", "expert_appraisals"]
-                },
-                "policy_document": {
-                    "name": "Analytical Policy Review",
-                    "description": "Systematic analysis of policy terms and applications",
-                    "tactics": ["clause_analysis", "precedent_research", "industry_comparisons"]
-                }
-            },
-            StrategyApproach.LEGAL_THREAT: {
-                "denial_letter": {
-                    "name": "Legal Action Threat",
-                    "description": "Escalation threat with legal consequences",
-                    "tactics": ["regulatory_complaints", "lawsuit_preparation", "bad_faith_claims"]
-                },
-                "settlement_offer": {
-                    "name": "Legal Leverage Strategy",
-                    "description": "Using legal pressure to increase settlement",
-                    "tactics": ["legal_precedents", "regulatory_citations", "attorney_involvement"]
-                },
-                "policy_document": {
-                    "name": "Legal Interpretation Challenge",
-                    "description": "Legal challenge to policy interpretation",
-                    "tactics": ["case_law_citations", "regulatory_standards", "legal_opinions"]
-                }
-            },
-            StrategyApproach.ASSERTIVE: {
-                "denial_letter": {
-                    "name": "Policy Interpretation Challenge",
-                    "description": "Firm but professional challenge of denial reasoning",
-                    "tactics": ["policy_analysis", "precedent_citing", "documentation_emphasis"]
-                },
-                "settlement_offer": {
-                    "name": "Value Justification Strategy",
-                    "description": "Clear demonstration of higher settlement value",
-                    "tactics": ["damage_documentation", "cost_analysis", "market_comparisons"]
-                },
-                "policy_document": {
-                    "name": "Coverage Scope Expansion",
-                    "description": "Assertive interpretation of coverage scope",
-                    "tactics": ["clause_interpretation", "industry_practices", "reasonable_expectations"]
-                }
-            }
-        }
-
-    def _load_legal_precedents(self) -> List[Dict[str, str]]:
-        """Load legal precedent database"""
-        return [
-            {
-                "case_name": "State Farm v. Campbell",
-                "principle": "Insurer bad faith liability",
-                "application": "Denial without reasonable investigation"
-            },
-            {
-                "case_name": "Gruenberg v. Aetna Insurance",
-                "principle": "Duty to settle within policy limits",
-                "application": "Settlement offer negotiations"
-            },
-            {
-                "case_name": "Gray v. Zurich Insurance",
-                "principle": "Reasonable expectations doctrine",
-                "application": "Policy interpretation disputes"
-            }
-        ]
-
-    def _load_policy_clauses(self) -> Dict[str, List[str]]:
-        """Load common policy clause interpretations"""
-        return {
-            "coverage_clauses": [
-                "All risks coverage includes unlisted perils",
-                "Occurrence-based triggers cover manifestation events",
-                "Named perils require specific policy listing"
+    def _create_fallback_strategy(self, extracted_info: ExtractedInfo, 
+                                analysis: AnalysisResult) -> Strategy:
+        """Fast fallback strategy"""
+        return Strategy(
+            name="Standard Negotiation Strategy",
+            approach=StrategyApproach.ASSERTIVE,
+            confidence=0.65,
+            key_leverage_points=[
+                "Policy coverage interpretation",
+                "Documentation evidence",
+                "Legal precedent support"
             ],
-            "exclusion_clauses": [
-                "Exclusions must be clear and unambiguous",
-                "Ambiguous exclusions interpreted against insurer",
-                "Exclusions cannot contradict coverage grants"
+            recommended_actions=[
+                "Submit comprehensive documentation",
+                "Request detailed policy interpretation",
+                "Escalate to senior claims handler",
+                "Reference applicable legal standards"
             ],
-            "limits_clauses": [
-                "Per-occurrence limits apply to single events",
-                "Aggregate limits cap total policy payments",
-                "Sub-limits may apply to specific coverage types"
-            ]
-        }
-
-    def _select_strategy_approach(self, extracted_info: ExtractedInfo, 
-                                analysis: AnalysisResult) -> StrategyApproach:
-        """Select optimal strategy approach based on case characteristics"""
-        
-        # Scoring system for each approach
-        approach_scores = {
-            StrategyApproach.AGGRESSIVE: 0,
-            StrategyApproach.COLLABORATIVE: 0,
-            StrategyApproach.DATA_DRIVEN: 0,
-            StrategyApproach.LEGAL_THREAT: 0,
-            StrategyApproach.ASSERTIVE: 0
-        }
-        
-        # Success probability influences approach
-        if analysis.success_probability > 0.8:
-            approach_scores[StrategyApproach.AGGRESSIVE] += 2
-            approach_scores[StrategyApproach.ASSERTIVE] += 1
-        elif analysis.success_probability > 0.6:
-            approach_scores[StrategyApproach.ASSERTIVE] += 2
-            approach_scores[StrategyApproach.DATA_DRIVEN] += 1
-        else:
-            approach_scores[StrategyApproach.COLLABORATIVE] += 2
-            approach_scores[StrategyApproach.DATA_DRIVEN] += 1
-        
-        # Document type influences approach
-        if extracted_info.document_type.value == 'denial_letter':
-            approach_scores[StrategyApproach.ASSERTIVE] += 2
-            if extracted_info.denial_reasons:
-                approach_scores[StrategyApproach.DATA_DRIVEN] += 1
-        elif extracted_info.document_type.value == 'settlement_offer':
-            approach_scores[StrategyApproach.DATA_DRIVEN] += 2
-            approach_scores[StrategyApproach.COLLABORATIVE] += 1
-        
-        # Extraction confidence influences approach
-        if extracted_info.extraction_confidence > 0.8:
-            approach_scores[StrategyApproach.DATA_DRIVEN] += 1
-            approach_scores[StrategyApproach.ASSERTIVE] += 1
-        
-        # Risk factors influence approach
-        if len(analysis.risk_factors) > 3:
-            approach_scores[StrategyApproach.COLLABORATIVE] += 1
-        elif len(analysis.risk_factors) < 2:
-            approach_scores[StrategyApproach.AGGRESSIVE] += 1
-        
-        # Select approach with highest score
-        return max(approach_scores, key=approach_scores.get)
-
-    def _get_strategy_template(self, approach: StrategyApproach, 
-                             document_type) -> Dict[str, Any]:
-        """Get strategy template for approach and document type"""
-        return self.strategy_templates[approach][document_type.value]
-
-    def _identify_leverage_points(self, extracted_info: ExtractedInfo, 
-                                analysis: AnalysisResult) -> List[str]:
-        """Identify key leverage points for negotiation"""
-        leverage_points = []
-        
-        # High-value similar cases
-        if analysis.similar_cases:
-            high_value_cases = [case for case in analysis.similar_cases 
-                              if case.similarity_score > 0.7]
-            if high_value_cases:
-                leverage_points.append(f"Similar successful cases with {len(high_value_cases)} precedents")
-        
-        # Policy ambiguities
-        if extracted_info.document_type.value == 'denial_letter' and extracted_info.denial_reasons:
-            leverage_points.append("Questionable denial reasoning requires clarification")
-        
-        # Documentation quality
-        if extracted_info.extraction_confidence > 0.8:
-            leverage_points.append("Complete documentation supports claim validity")
-        
-        # Coverage scope issues
-        if extracted_info.coverage_types:
-            leverage_points.append("Multiple coverage types may provide alternative claim paths")
-        
-        # Timeline compliance
-        if extracted_info.key_dates:
-            leverage_points.append("Documented timeline shows compliance with policy requirements")
-        
-        # Market value discrepancies
-        if extracted_info.document_type.value == 'settlement_offer':
-            leverage_points.append("Settlement offer below market value standards")
-        
-        return leverage_points
-
-    def _generate_recommended_actions(self, extracted_info: ExtractedInfo, 
-                                    analysis: AnalysisResult, 
-                                    approach: StrategyApproach) -> List[str]:
-        """Generate specific recommended actions"""
-        actions = []
-        
-        # Document-specific actions
-        if extracted_info.document_type.value == 'denial_letter':
-            actions.extend([
-                "Request detailed explanation of denial reasoning",
-                "Gather additional supporting documentation",
-                "Review policy language for coverage confirmation"
-            ])
-        elif extracted_info.document_type.value == 'settlement_offer':
-            actions.extend([
-                "Obtain independent damage assessment",
-                "Research comparable settlement amounts",
-                "Document all loss-related expenses"
-            ])
-        
-        # Approach-specific actions
-        if approach == StrategyApproach.AGGRESSIVE:
-            actions.extend([
-                "Set firm deadlines for response",
-                "Escalate to senior claims management",
-                "Reference potential regulatory complaints"
-            ])
-        elif approach == StrategyApproach.DATA_DRIVEN:
-            actions.extend([
-                "Compile comprehensive evidence package",
-                "Obtain expert opinions or appraisals",
-                "Prepare statistical comparisons"
-            ])
-        elif approach == StrategyApproach.COLLABORATIVE:
-            actions.extend([
-                "Schedule discussion meeting",
-                "Propose joint fact-finding process",
-                "Explore creative resolution options"
-            ])
-        
-        # Success probability based actions
-        if analysis.success_probability > 0.7:
-            actions.append("Proceed with confident negotiation stance")
-        else:
-            actions.append("Build stronger case foundation before major negotiations")
-        
-        return actions
-
-    def _find_relevant_precedents(self, extracted_info: ExtractedInfo) -> List[str]:
-        """Find relevant legal precedents"""
-        relevant_precedents = []
-        
-        for precedent in self.legal_precedents:
-            # Simple keyword matching - in production would use more sophisticated NLP
-            if (extracted_info.document_type.value == 'denial_letter' and 
-                'denial' in precedent['application'].lower()):
-                relevant_precedents.append(f"{precedent['case_name']}: {precedent['principle']}")
-            elif (extracted_info.document_type.value == 'settlement_offer' and 
-                  'settlement' in precedent['application'].lower()):
-                relevant_precedents.append(f"{precedent['case_name']}: {precedent['principle']}")
-        
-        return relevant_precedents
-
-    def _identify_policy_clauses(self, extracted_info: ExtractedInfo) -> List[str]:
-        """Identify relevant policy clauses"""
-        relevant_clauses = []
-        
-        # Coverage-related clauses
-        if extracted_info.coverage_types:
-            relevant_clauses.extend(self.policy_clause_library['coverage_clauses'][:2])
-        
-        # Exclusion-related clauses (for denial letters)
-        if extracted_info.document_type.value == 'denial_letter':
-            relevant_clauses.extend(self.policy_clause_library['exclusion_clauses'][:2])
-        
-        # Limits-related clauses
-        if extracted_info.monetary_amounts:
-            relevant_clauses.extend(self.policy_clause_library['limits_clauses'][:1])
-        
-        return relevant_clauses
-
-    def _create_negotiation_plan(self, extracted_info: ExtractedInfo, 
-                               analysis: AnalysisResult, 
-                               approach: StrategyApproach) -> NegotiationPlan:
-        """Create detailed negotiation plan"""
-        
-        # Determine number of rounds based on complexity and success probability
-        if analysis.success_probability > 0.8:
-            total_rounds = 2
-        elif analysis.success_probability > 0.6:
-            total_rounds = 3
-        else:
-            total_rounds = 4
-        
-        rounds = []
-        
-        # Round 1: Initial Position
-        rounds.append(NegotiationRound(
-            round=1,
-            objective="Present initial case and establish position",
-            key_actions=[
-                "Submit comprehensive initial response",
-                "Present key evidence and documentation",
-                "State desired outcome clearly"
+            legal_precedents=[
+                "Duty of good faith",
+                "Reasonable expectations doctrine"
             ],
-            expected_outcome="Acknowledgment of case merit and engagement",
-            timeline_days=7
-        ))
-        
-        # Round 2: Evidence Phase
-        if total_rounds >= 2:
-            rounds.append(NegotiationRound(
-                round=2,
-                objective="Strengthen case with additional evidence",
-                key_actions=[
-                    "Provide supplemental documentation",
-                    "Address any insurer concerns",
-                    "Reference similar cases and precedents"
-                ],
-                expected_outcome="Movement toward settlement discussion",
-                timeline_days=14
-            ))
-        
-        # Round 3: Negotiation Phase
-        if total_rounds >= 3:
-            rounds.append(NegotiationRound(
-                round=3,
-                objective="Engage in active settlement negotiation",
-                key_actions=[
-                    "Present counter-offers",
-                    "Negotiate specific terms",
-                    "Explore compromise solutions"
-                ],
-                expected_outcome="Concrete settlement proposal",
-                timeline_days=10
-            ))
-        
-        # Round 4: Final Resolution
-        if total_rounds >= 4:
-            rounds.append(NegotiationRound(
-                round=4,
-                objective="Reach final resolution or escalate",
-                key_actions=[
-                    "Finalize settlement terms",
-                    "Document agreement details",
-                    "Prepare escalation if necessary"
-                ],
-                expected_outcome="Final settlement or escalation decision",
-                timeline_days=7
-            ))
-        
-        total_duration = sum(round.timeline_days for round in rounds)
-        
-        return NegotiationPlan(
-            total_rounds=total_rounds,
-            estimated_duration_days=total_duration,
-            rounds=rounds
+            policy_clauses=[
+                "Coverage scope interpretation",
+                "Exclusion clarity requirements"
+            ],
+            negotiation_plan=NegotiationPlan(
+                total_rounds=2,
+                estimated_duration_days=14,
+                rounds=[
+                    NegotiationRound(
+                        round=1,
+                        objective="Present case",
+                        key_actions=["Submit documentation", "Present arguments"],
+                        expected_outcome="Initial response",
+                        timeline_days=7
+                    ),
+                    NegotiationRound(
+                        round=2,
+                        objective="Negotiate settlement",
+                        key_actions=["Address concerns", "Finalize agreement"],
+                        expected_outcome="Settlement",
+                        timeline_days=7
+                    )
+                ]
+            )
         )
 
-    def _calculate_strategy_confidence(self, extracted_info: ExtractedInfo, 
-                                     analysis: AnalysisResult, 
-                                     leverage_points: List[str]) -> float:
-        """Calculate confidence in the strategy"""
-        confidence_factors = []
-        
-        # Base on analysis success probability
-        confidence_factors.append(analysis.success_probability * 0.4)
-        
-        # Extraction quality
-        confidence_factors.append(extracted_info.extraction_confidence * 0.2)
-        
-        # Number of leverage points
-        leverage_score = min(len(leverage_points) / 5, 1.0) * 0.2
-        confidence_factors.append(leverage_score)
-        
-        # Similar cases availability
-        similar_cases_score = min(len(analysis.similar_cases) / 3, 1.0) * 0.1
-        confidence_factors.append(similar_cases_score)
-        
-        # Risk vs strength factors
-        risk_strength_ratio = len(analysis.strength_factors) / max(len(analysis.risk_factors), 1)
-        risk_strength_score = min(risk_strength_ratio / 2, 1.0) * 0.1
-        confidence_factors.append(risk_strength_score)
-        
-        # Document type specific factors
-        if extracted_info.document_type.value == 'denial_letter':
-            if len(extracted_info.denial_reasons) > 0:
-                denial_reason_score = 0.1
-            else:
-                denial_reason_score = 0.05
-            confidence_factors.append(denial_reason_score)
-        elif extracted_info.document_type.value == 'settlement_offer':
-            if len(extracted_info.settlement_amounts) > 0:
-                settlement_amount_score = 0.1
-            else:
-                settlement_amount_score = 0.05
-            confidence_factors.append(settlement_amount_score)
-        else:
-            confidence_factors.append(0.05)  # Default for other document types
-        
-        # Calculate final confidence score
-        return min(sum(confidence_factors), 1.0)
+    def cleanup(self):
+        """Clean up resources (minimal for API-based approach)"""
+        try:
+            self.status = ModelStatus.INITIALIZING
+            self.status_message = "Cleaning up..."
+            self.logger.info("Strategy generation API resources cleaned up")
+        except Exception as e:
+            self.logger.error(f"Error during strategy generator cleanup: {str(e)}")
+
+    def __del__(self):
+        """Destructor to ensure cleanup"""
+        self.cleanup()
+
+# For backward compatibility
+AIStrategyGenerator = OptimizedStrategyGenerator
+HuggingFaceStrategyGenerator = OptimizedStrategyGenerator

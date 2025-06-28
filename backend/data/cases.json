@@ -4252,5 +4252,3416 @@
       }
     },
     "file_path": null
+  },
+  "CASE_20250628_020218": {
+    "case_id": "CASE_20250628_020218",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:02:18.830928",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.6,
+      "key_leverage_points": 3,
+      "negotiation_rounds": 3,
+      "estimated_timeline": 21,
+      "approach": "assertive"
+    }
+  },
+  "CASE_20250628_020248": {
+    "case_id": "CASE_20250628_020248",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:02:48.695276",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_020935": {
+    "case_id": "CASE_20250628_020935",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:09:35.236687",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_021241": {
+    "case_id": "CASE_20250628_021241",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:12:41.353529",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_021856": {
+    "case_id": "CASE_20250628_021856",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:18:56.894812",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications",
+        "Review policy exclusions carefully"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation",
+              "Request case review"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence",
+              "Challenge denial reasons"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms",
+              "Secure written agreement"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_022806": {
+    "case_id": "CASE_20250628_022806",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:28:06.709243",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications",
+        "Review policy exclusions carefully"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation",
+              "Request case review"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence",
+              "Challenge denial reasons"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms",
+              "Secure written agreement"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_023045": {
+    "case_id": "CASE_20250628_023045",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:30:45.204059",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications",
+        "Review policy exclusions carefully"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation",
+              "Request case review"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence",
+              "Challenge denial reasons"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms",
+              "Secure written agreement"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_023320": {
+    "case_id": "CASE_20250628_023320",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:33:20.302722",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications",
+        "Review policy exclusions carefully"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation",
+              "Request case review"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence",
+              "Challenge denial reasons"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms",
+              "Secure written agreement"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_023614": {
+    "case_id": "CASE_20250628_023614",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:36:14.482230",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications",
+        "Review policy exclusions carefully"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation",
+              "Request case review"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence",
+              "Challenge denial reasons"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms",
+              "Secure written agreement"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_023904": {
+    "case_id": "CASE_20250628_023904",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T02:39:04.556601",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Policy Review Strategy",
+      "approach": "assertive",
+      "confidence": 0.6,
+      "key_leverage_points": [
+        "Policy language review required",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation",
+        "Gather additional supporting evidence",
+        "Escalate to claims supervisor",
+        "Document all communications",
+        "Review policy exclusions carefully"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires clarification",
+        "Exclusions must be clearly defined"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present initial case",
+            "key_actions": [
+              "Submit comprehensive documentation",
+              "Request case review"
+            ],
+            "expected_outcome": "Case acknowledgment",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns",
+            "key_actions": [
+              "Provide additional evidence",
+              "Challenge denial reasons"
+            ],
+            "expected_outcome": "Settlement discussion",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final terms",
+              "Secure written agreement"
+            ],
+            "expected_outcome": "Settlement agreement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_030538": {
+    "case_id": "CASE_20250628_030538",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T03:05:38.305163",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Local AI Enhanced Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy interpretation requires clarification",
+        "Documentation supports claim validity",
+        "Industry standards favor consumer protection",
+        "Legal precedents support position"
+      ],
+      "recommended_actions": [
+        "Request detailed policy interpretation from claims department",
+        "Compile comprehensive supporting documentation",
+        "Research similar successful cases for precedent",
+        "Escalate to senior claims supervisor if initial response inadequate",
+        "Document all communications for potential legal proceedings",
+        "Review state insurance regulations for compliance violations"
+      ],
+      "legal_precedents": [
+        "Duty of good faith and fair dealing",
+        "Reasonable expectations doctrine",
+        "Contra proferentem interpretation rule"
+      ],
+      "policy_clauses": [
+        "Coverage scope requires detailed interpretation",
+        "Exclusions must be clearly and specifically defined",
+        "Ambiguous language favors policyholder"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present comprehensive case",
+            "key_actions": [
+              "Submit all supporting documentation",
+              "Request detailed claim review",
+              "Present legal position clearly"
+            ],
+            "expected_outcome": "Case acknowledgment and initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Address concerns and negotiate",
+            "key_actions": [
+              "Respond to insurer concerns",
+              "Provide additional evidence if needed",
+              "Challenge denial reasons with legal precedents"
+            ],
+            "expected_outcome": "Settlement discussion initiated",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalize agreement",
+            "key_actions": [
+              "Negotiate final settlement terms",
+              "Secure written agreement",
+              "Confirm payment timeline"
+            ],
+            "expected_outcome": "Settlement agreement executed",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_042710": {
+    "case_id": "CASE_20250628_042710",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T04:27:10.262507",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_043806": {
+    "case_id": "CASE_20250628_043806",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T04:38:06.718387",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_092825": {
+    "case_id": "CASE_20250628_092825",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T09:28:25.486784",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_103404": {
+    "case_id": "CASE_20250628_103404",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T10:34:04.062998",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.65,
+      "key_leverage_points": 3,
+      "negotiation_rounds": 2,
+      "estimated_timeline": 14,
+      "approach": "assertive",
+      "generation_time": null,
+      "model_provider": "gpt2"
+    }
+  },
+  "CASE_20250628_103445": {
+    "case_id": "CASE_20250628_103445",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T10:34:45.765561",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.65,
+      "key_leverage_points": 3,
+      "negotiation_rounds": 2,
+      "estimated_timeline": 14,
+      "approach": "assertive",
+      "generation_time": null,
+      "model_provider": "gpt2"
+    }
+  },
+  "CASE_20250628_103459": {
+    "case_id": "CASE_20250628_103459",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T10:34:59.233218",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_105534": {
+    "case_id": "CASE_20250628_105534",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T10:55:34.740638",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Revised Strategic Approach Name",
+      "approach": "assertive",
+      "confidence": 0.7,
+      "key_leverage_points": [
+        "point1",
+        "point2"
+      ],
+      "recommended_actions": [
+        "action1",
+        "action2",
+        "action3"
+      ],
+      "legal_precedents": [
+        "precedent1"
+      ],
+      "policy_clauses": [
+        "clause1"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_110802": {
+    "case_id": "CASE_20250628_110802",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:08:02.915139",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_111108": {
+    "case_id": "CASE_20250628_111108",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:11:08.229630",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Standard Negotiation Strategy",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy coverage interpretation",
+        "Documentation evidence",
+        "Legal precedent support"
+      ],
+      "recommended_actions": [
+        "Submit comprehensive documentation",
+        "Request detailed policy interpretation",
+        "Escalate to senior claims handler",
+        "Reference applicable legal standards"
+      ],
+      "legal_precedents": [
+        "Duty of good faith",
+        "Reasonable expectations doctrine"
+      ],
+      "policy_clauses": [
+        "Coverage scope interpretation",
+        "Exclusion clarity requirements"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Present case",
+            "key_actions": [
+              "Submit documentation",
+              "Present arguments"
+            ],
+            "expected_outcome": "Initial response",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiate settlement",
+            "key_actions": [
+              "Address concerns",
+              "Finalize agreement"
+            ],
+            "expected_outcome": "Settlement",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_111838": {
+    "case_id": "CASE_20250628_111838",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:18:38.367481",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Proactive Policy Interpretation & Escalation",
+      "approach": "assertive",
+      "confidence": 0.3,
+      "key_leverage_points": [
+        "Complete policy identification allows for precise analysis of coverage and exclusions.",
+        "The insurer's duty of good faith and fair dealing mandates thorough claim review.",
+        "Absence of denial reasons necessitates the insurer to provide justification, strengthening our position.",
+        "Potential for escalation to state insurance regulators if the insurer fails to act in good faith.",
+        "Exploration of the reasonable expectations doctrine based on the policy's marketing and sales materials (if available)."
+      ],
+      "recommended_actions": [
+        "Demand immediate clarification on the claim amount and reasons for the lack of a denial letter.",
+        "Conduct a thorough policy review focusing on relevant sections related to medical coverage (e.g., covered procedures, exclusions, pre-authorization requirements).",
+        "Prepare a comprehensive response letter referencing specific policy clauses, highlighting the insurer's failure to meet their duty of good faith and fair dealing.",
+        "If the insurer fails to provide a satisfactory response, escalate the matter to the state insurance department.",
+        "Consider consulting with a legal professional specializing in insurance law to explore further legal options."
+      ],
+      "legal_precedents": [
+        "Cases establishing the insurer's duty of good faith and fair dealing (State-specific precedents needed based on the policyholder's location)",
+        "Cases illustrating the application of the reasonable expectations doctrine in similar insurance disputes.",
+        "Cases demonstrating successful challenges to insurance denials based on ambiguous policy language (Contra proferentem)."
+      ],
+      "policy_clauses": [
+        "Specific clause outlining covered medical expenses (needs to be identified after policy review)",
+        "Specific clause detailing the procedures for claim submission and review (needs to be identified after policy review)",
+        "Specific clause regarding the insurer's responsibility to provide clear and timely communication (needs to be identified after policy review)"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Demand Clarification and Initiate Policy Review",
+            "key_actions": [
+              "Send a formal letter demanding immediate clarification on claim amount and denial reasons.",
+              "Begin a comprehensive review of the policy documents to identify relevant clauses and potential leverage points."
+            ],
+            "expected_outcome": "Receipt of claim amount and/or justification for lack of denial letter, initiation of policy review.",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Formal Dispute Resolution or Escalation",
+            "key_actions": [
+              "Submit a detailed response letter citing policy clauses, legal precedents, and demanding payment or a detailed justification for denial.",
+              "If unsatisfactory, initiate the escalation process with the state insurance department or legal counsel."
+            ],
+            "expected_outcome": "Settlement or formal initiation of dispute resolution process.",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.3,
+      "key_leverage_points": 5,
+      "negotiation_rounds": 2,
+      "estimated_timeline": 14,
+      "approach": "assertive",
+      "generation_time": 5.02440881729126,
+      "model_provider": "gemini"
+    }
+  },
+  "CASE_20250628_111902": {
+    "case_id": "CASE_20250628_111902",
+    "claim_type": "denial_letter",
+    "policy_number": "1234567890",
+    "success_probability": 0.57,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:19:02.671133",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "Rejection",
+        "damage_description": "involved overspeeding, which is not covered under"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.57,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Information Gathering & Assertive Negotiation",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Duty of good faith and fair dealing (implied in all insurance contracts)",
+        "The lack of specific denial reasons, forcing the insurer to justify their actions.",
+        "Potential for uncovering missing information or misinterpretations of the policy leading to a successful claim.",
+        "Threat of escalation to state insurance regulators and legal action if necessary.",
+        "Public perception and reputational risk for the insurance company in handling claims poorly."
+      ],
+      "recommended_actions": [
+        "Immediately request a complete and detailed explanation of the denial, including specific policy clauses and supporting documentation.",
+        "Gather all relevant documentation related to the claim, including medical records, receipts, and any communication with the insurance company.",
+        "Engage in direct communication with a claims adjuster at a managerial level to elevate the discussion.",
+        "If the claim amount is not yet determined, proactively submit a comprehensive claim detailing all losses and expenses.",
+        "Prepare a formal demand letter outlining the legal basis for the claim and the potential for legal action if the claim is not resolved favorably."
+      ],
+      "legal_precedents": [
+        "Cases establishing the duty of good faith and fair dealing in insurance contracts (vary by state -  specify relevant state precedent)",
+        "Cases illustrating the application of the reasonable expectations doctrine in insurance disputes (vary by state - specify relevant state precedent)",
+        "Cases involving ambiguous policy language and the application of the contra proferentem principle (vary by state - specify relevant state precedent)"
+      ],
+      "policy_clauses": [
+        "Clause defining the scope of 'General Coverage' (specify exact clause number and wording)",
+        "Clause outlining the insurer's duty to investigate claims thoroughly (specify exact clause number and wording)",
+        "Clause detailing the process for appealing denied claims (specify exact clause number and wording)"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Information Gathering & Initial Claim Submission",
+            "key_actions": [
+              "Request detailed denial explanation and supporting documentation.",
+              "Submit a comprehensive claim with supporting documentation."
+            ],
+            "expected_outcome": "Receipt of detailed denial explanation and claim acknowledgment.",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Formal Negotiation & Leverage Application",
+            "key_actions": [
+              "Engage in direct communication with a claims adjuster at a managerial level.",
+              "Present a formal demand letter outlining the legal basis for the claim."
+            ],
+            "expected_outcome": "Revised claim assessment or offer of settlement.",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Final Negotiation or Escalation",
+            "key_actions": [
+              "Evaluate the offer and negotiate further or prepare for escalation.",
+              "If necessary, consult with legal counsel and consider filing a formal complaint with state insurance regulators."
+            ],
+            "expected_outcome": "Favorable settlement or clear path for legal action.",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.65,
+      "key_leverage_points": 5,
+      "negotiation_rounds": 3,
+      "estimated_timeline": 21,
+      "approach": "assertive",
+      "generation_time": 5.437726974487305,
+      "model_provider": "gemini"
+    }
+  },
+  "CASE_20250628_111919": {
+    "case_id": "CASE_20250628_111919",
+    "claim_type": "policy_document",
+    "policy_number": "1234567890",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:19:19.829195",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "was driving",
+        "vehicle in"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Targeted Policy Analysis & Assertive Negotiation",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Comprehensive and Liability coverage provisions within policy 1234567890",
+        "The insurer's duty of good faith and fair dealing (as per [State Name] Insurance Regulations)",
+        "Potential application of the reasonable expectations doctrine based on the policy's marketing materials (if available)",
+        "Ambiguity in policy wording (if identified) resolved in favor of the insured (contra proferentem)",
+        "The low success probability (0.55%) suggesting a potential for undervaluation of the claim"
+      ],
+      "recommended_actions": [
+        "Immediately request a detailed breakdown of the claim amount under review and supporting documentation.",
+        "Thoroughly analyze policy 1234567890, focusing on liability and comprehensive coverage clauses, specifically identifying any ambiguities or exclusions.",
+        "Prepare a comprehensive demand letter referencing relevant policy clauses and legal precedents, outlining the insured's position and justifying the claim amount based on policy terms and potential damages.",
+        "Engage in pre-litigation discussions to explore settlement options, emphasizing the insurer's duty of good faith and the potential costs associated with protracted litigation.",
+        "If negotiation fails, prepare for litigation, retaining legal counsel specializing in insurance disputes."
+      ],
+      "legal_precedents": [
+        "[Insert relevant state case law regarding duty of good faith and fair dealing in insurance claims]",
+        "[Insert relevant state case law regarding the reasonable expectations doctrine in insurance contracts]",
+        "[Insert relevant federal or state case law concerning interpretation of ambiguous insurance policy language]"
+      ],
+      "policy_clauses": [
+        "Clause specifying the extent of liability coverage (e.g., limits, exclusions)",
+        "Clause defining comprehensive coverage and the scope of covered damages",
+        "Clause outlining the insurer's duty to investigate and fairly settle claims"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Information Gathering & Demand Letter",
+            "key_actions": [
+              "Request claim details and supporting documentation",
+              "Conduct thorough policy analysis",
+              "Draft and send a formal demand letter"
+            ],
+            "expected_outcome": "Receipt of claim details and insurer's initial response to demand letter",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Initial Negotiation & Counter-Offer",
+            "key_actions": [
+              "Analyze insurer's response",
+              "Prepare and submit a counter-offer based on policy analysis and legal precedent",
+              "Engage in formal discussion to explore settlement options"
+            ],
+            "expected_outcome": "Agreement on a settlement range or decision to proceed to further negotiation",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Final Negotiation or Litigation Preparation",
+            "key_actions": [
+              "Final negotiation and settlement or preparation of litigation documents",
+              "Consult with legal counsel if necessary"
+            ],
+            "expected_outcome": "Settlement reached or decision to proceed with litigation",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.65,
+      "key_leverage_points": 5,
+      "negotiation_rounds": 3,
+      "estimated_timeline": 21,
+      "approach": "assertive",
+      "generation_time": 5.437480688095093,
+      "model_provider": "gemini"
+    }
+  },
+  "CASE_20250628_112336": {
+    "case_id": "CASE_20250628_112336",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:23:36.110131",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Targeted Policy Clause Negotiation",
+      "approach": "assertive",
+      "confidence": 0.25,
+      "key_leverage_points": [
+        "Ambiguity in Clause 9: Explore any potential loopholes or unclear wording within Clause 9 that could support the claim.",
+        "Duty of Good Faith and Fair Dealing:  Highlight the insurer's obligation to act fairly and reasonably in handling the claim.",
+        "Reasonable Expectations Doctrine: Argue that the policyholder had a reasonable expectation of coverage based on the policy's marketing materials and sales representations (if applicable).",
+        "Lack of Specific Monetary Denial: The absence of a clear monetary denial amount creates uncertainty, allowing for negotiation of a partial settlement.",
+        "Complete Policy Identification: Leverage the availability of complete policy information to thoroughly analyze all aspects of the policy relevant to the claim."
+      ],
+      "recommended_actions": [
+        "Thorough Policy Review: Conduct a comprehensive review of the entire policy, focusing on all clauses related to medical coverage, exclusions, and definitions.",
+        "Formal Dispute Resolution Letter: Send a formal letter to the insurance company detailing the claim, citing relevant policy clauses, and referencing the legal principles of good faith, reasonable expectations, and contra proferentem.",
+        "Demand for Clarification on Clause 9: Request a detailed explanation of how Clause 9 applies to this specific claim, highlighting any ambiguities or inconsistencies.",
+        "Gather Supporting Documentation: Compile all relevant medical documentation, receipts, and any other evidence to support the claim.",
+        "Explore Alternative Dispute Resolution (ADR): If negotiation fails, explore options such as mediation or arbitration."
+      ],
+      "legal_precedents": [
+        "State v. Insurance Company X (hypothetical case illustrating successful challenge to ambiguous policy clause):  To be replaced with actual relevant case law based on the specific state's insurance regulations.",
+        "Doe v. Insurance Company Y (hypothetical case illustrating successful application of the reasonable expectations doctrine): To be replaced with actual relevant case law based on the specific state's insurance regulations.",
+        "Case law supporting the application of the contra proferentem principle to insurance policies (general principle, specific case to be identified based on jurisdiction)."
+      ],
+      "policy_clauses": [
+        "Clause 9 (the disputed clause - requires detailed analysis and specific content)",
+        "Clause [Insert Clause Number] (related to medical coverage definitions)",
+        "Clause [Insert Clause Number] (related to claim submission procedures and timelines)"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Formal Dispute Letter & Documentation Submission",
+            "key_actions": [
+              "Send formal dispute resolution letter citing relevant policy clauses and legal precedents.",
+              "Submit all supporting documentation."
+            ],
+            "expected_outcome": "Acknowledgement of the dispute and a response from the insurance company.",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Clarification and Counter-Offer",
+            "key_actions": [
+              "Analyze the insurer's response and identify areas of potential compromise.",
+              "Prepare a counter-offer based on the policy analysis and legal arguments."
+            ],
+            "expected_outcome": "Revised offer from the insurance company or a commitment to further investigation.",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Final Negotiation or ADR initiation",
+            "key_actions": [
+              "Evaluate the insurer's final offer.",
+              "Initiate alternative dispute resolution (mediation or arbitration) if necessary."
+            ],
+            "expected_outcome": "Settlement or agreement to proceed with ADR.",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_112653": {
+    "case_id": "CASE_20250628_112653",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:26:53.011055",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Targeted Policy Clause Negotiation",
+      "approach": "assertive",
+      "confidence": 0.35,
+      "key_leverage_points": [
+        "Ambiguity in Clause 9: Explore any potential loopholes or unclear wording within Clause 9 that could support the claim.",
+        "Duty of Good Faith and Fair Dealing:  Highlight the insurer's obligation to act fairly and honestly in handling the claim.",
+        "Reasonable Expectations Doctrine: Argue that the policyholder had a reasonable expectation of coverage based on the policy's marketing materials and sales representations (if applicable).",
+        "Policyholder's adherence to all other policy terms: Demonstrate complete compliance with all other policy stipulations to strengthen the case.",
+        "Potential for Bad Faith Claim:  If the denial is deemed unreasonable, a bad faith claim may be considered as a last resort."
+      ],
+      "recommended_actions": [
+        "Thorough Policy Review: Conduct a line-by-line review of the policy, focusing on Clause 9 and any related sections.",
+        "Documentation Gathering: Gather all supporting documentation related to the claim, including medical records, receipts, and communication with the insurance company.",
+        "Formal Dispute Resolution Letter: Draft a formal letter detailing the claim, referencing the policy clauses, legal precedents, and arguing for a reconsideration of the denial based on the leverage points.",
+        "Negotiation Timeline Establishment:  Request a clear timeline for review and response to the dispute letter.",
+        "State Insurance Department Complaint: Prepare to file a formal complaint with the relevant state insurance department if the negotiation fails."
+      ],
+      "legal_precedents": [
+        "Cases illustrating the application of the Duty of Good Faith and Fair Dealing in similar insurance disputes (Specific case citations to be added based on jurisdiction).",
+        "Cases involving the Reasonable Expectations Doctrine in insurance policy interpretations (Specific case citations to be added based on jurisdiction).",
+        "Cases demonstrating successful challenges to ambiguous policy clauses (Specific case citations to be added based on jurisdiction)."
+      ],
+      "policy_clauses": [
+        "Clause 9 (the denial clause - requires specific wording from the policy)",
+        "Policy definition of 'covered medical expenses' (requires specific wording from the policy)",
+        "Policy clause regarding claim submission deadlines and procedures (requires specific wording from the policy)"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Formal Dispute Resolution and Information Gathering",
+            "key_actions": [
+              "Send formal dispute letter with supporting documentation.",
+              "Request clarification on claim amount under review and denial timeline."
+            ],
+            "expected_outcome": "Acknowledgement of dispute and request for additional information or counter-offer.",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiation and Settlement or Escalation",
+            "key_actions": [
+              "Analyze insurer's response and prepare a counter-argument or settlement proposal.",
+              "If unsuccessful, initiate a complaint with the state insurance department or pursue legal action."
+            ],
+            "expected_outcome": "Partial or full claim settlement or formal escalation to regulatory body.",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.35,
+      "key_leverage_points": 5,
+      "negotiation_rounds": 2,
+      "estimated_timeline": 14,
+      "approach": "assertive",
+      "generation_time": 5.57495379447937,
+      "model_provider": "gemini"
+    }
+  },
+  "CASE_20250628_112716": {
+    "case_id": "CASE_20250628_112716",
+    "claim_type": "denial_letter",
+    "policy_number": "H567891234",
+    "success_probability": 0.62,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:27:16.992353",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "H567891234",
+        "insurer": "Health Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.62,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Unclear denial reasons make counter-arguments difficult",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Targeted Policy Review and Assertive Negotiation",
+      "approach": "assertive",
+      "confidence": 0.3,
+      "key_leverage_points": [
+        "Complete policy identification allows for thorough review and identification of potential coverage gaps in the denial rationale.",
+        "The insurer's duty of good faith and fair dealing requires a thorough and unbiased review of the claim.",
+        "Absence of clear denial reasons necessitates the insurer to provide justification, potentially revealing weaknesses in their position.",
+        "Exploration of 'reasonable expectations' regarding coverage based on policy marketing materials and sales conversations.",
+        "Leveraging state insurance regulations regarding claim processing timelines and transparency."
+      ],
+      "recommended_actions": [
+        "Immediately request a detailed explanation of the claim denial, citing the lack of provided reasons and referencing the insurer's duty of good faith and fair dealing.",
+        "Conduct a comprehensive review of policy H567891234, focusing on all relevant clauses related to medical coverage, including exclusions and limitations.",
+        "Gather all supporting documentation related to the medical claim, including medical bills, doctor's notes, and any prior communications with the insurance company.",
+        "If necessary, consult with a healthcare attorney specializing in insurance disputes to assess legal options and potential avenues for redress.",
+        "Prepare a formal appeal letter clearly outlining the discrepancies and inconsistencies found in the claim review process, referencing relevant legal precedents and policy clauses."
+      ],
+      "legal_precedents": [
+        "Cases establishing the duty of good faith and fair dealing in insurance claims (State-specific precedents should be researched and included here)",
+        "Cases demonstrating the application of the reasonable expectations doctrine in similar insurance disputes.",
+        "Cases illustrating the application of the contra proferentem principle in interpreting ambiguous policy language."
+      ],
+      "policy_clauses": [
+        "Specific clause outlining covered medical expenses (e.g., 'Covered Medical Expenses' or similar)",
+        "Specific clause detailing the claims process and appeal procedures.",
+        "Specific clause defining exclusions or limitations on coverage (to be identified during policy review)."
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Request detailed denial explanation and initiate policy review",
+            "key_actions": [
+              "Send formal letter requesting detailed denial reasoning and citing the insurer's duty of good faith.",
+              "Begin thorough review of policy H567891234 for relevant clauses and potential coverage gaps."
+            ],
+            "expected_outcome": "Receipt of detailed denial explanation and initial assessment of policy coverage.",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Formal appeal and negotiation",
+            "key_actions": [
+              "Submit formal appeal letter with supporting documentation, citing legal precedents and policy clauses.",
+              "Engage in direct negotiation with the insurer, leveraging identified leverage points and legal arguments."
+            ],
+            "expected_outcome": "Settlement or clear pathway to further action (e.g., arbitration, litigation).",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
+  },
+  "CASE_20250628_113245": {
+    "case_id": "CASE_20250628_113245",
+    "claim_type": "denial_letter",
+    "policy_number": "T345678912",
+    "success_probability": 0.65,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:32:45.332277",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "denial_letter",
+      "extraction_confidence": 0.65,
+      "policy_details": {
+        "policy_number": "T345678912",
+        "insurer": "Travel Insurance"
+      },
+      "claim_details": {
+        "claim_number": "REJECTION"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [],
+      "coverage_types": [
+        "medical"
+      ],
+      "denial_reasons": [
+        "Clause 9"
+      ],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.65,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.475
+      },
+      "risk_factors": [
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Complete policy identification enables thorough review",
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "health",
+        "industry_average_increase": 0.28,
+        "success_rate_benchmark": 0.58,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 3,
+        "total_estimated_days": 45,
+        "maximum_timeline_days": 90
+      }
+    },
+    "strategy": {
+      "name": "Targeted Policy Clause Challenge",
+      "approach": "assertive",
+      "confidence": 0.35,
+      "key_leverage_points": [
+        "Ambiguity in Clause 9: Explore potential loopholes or inconsistencies in the wording of Clause 9 that may allow for a different interpretation.",
+        "Duty of Good Faith and Fair Dealing:  Argue that the insurance company failed to act in good faith by denying the claim without a thorough review of all relevant facts and policy provisions.",
+        "Reasonable Expectations Doctrine:  Demonstrate that a reasonable policyholder would expect coverage under the circumstances of the claim, despite the insurer's interpretation of Clause 9.",
+        "Lack of Specific Denial Justification: The absence of a clearly defined monetary amount and timeline information creates an opportunity to challenge the denial's validity and force a more thorough investigation.",
+        "State Insurance Regulations:  Research applicable state insurance regulations regarding claim denials and appeal processes to identify potential violations."
+      ],
+      "recommended_actions": [
+        "Thoroughly analyze Clause 9 and surrounding policy language for ambiguities or contradictions.",
+        "Demand a detailed explanation of the claim denial, including the specific reasons for the application of Clause 9 and the calculation of the 'Under review' claim amount.",
+        "Gather all supporting documentation, including medical records, receipts, and communication with the insurance company.",
+        "Initiate a formal appeal process, following the insurance company's procedures and including all relevant documentation and legal arguments.",
+        "If the appeal fails, consider consulting with an attorney specializing in insurance law to explore legal options."
+      ],
+      "legal_precedents": [
+        "Cases establishing the duty of good faith and fair dealing in insurance contracts (cite relevant state case law)",
+        "Cases applying the reasonable expectations doctrine to interpret ambiguous policy language (cite relevant state case law)",
+        "Cases involving similar policy clauses and claim denials, demonstrating successful challenges based on ambiguity or misinterpretation (cite relevant case law)"
+      ],
+      "policy_clauses": [
+        "Clause 9 (the specific clause cited in the denial letter)",
+        "Policy clause defining covered medical expenses",
+        "Policy clause outlining the appeals process"
+      ],
+      "negotiation_plan": {
+        "total_rounds": 2,
+        "estimated_duration_days": 14,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Formal Appeal and Information Request",
+            "key_actions": [
+              "Submit a formal appeal letter highlighting ambiguities in Clause 9 and demanding a detailed explanation of the denial.",
+              "Request all relevant documentation supporting the denial, including the methodology used for the 'Under review' claim amount calculation."
+            ],
+            "expected_outcome": "Acknowledgement of appeal and provision of a detailed response to the information request.",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Negotiation or Legal Consultation",
+            "key_actions": [
+              "Analyze the insurer's response to identify potential leverage points.",
+              "If the response is unsatisfactory, prepare for legal consultation and potential litigation, based on the strength of the legal arguments and the potential return on investment."
+            ],
+            "expected_outcome": "Partial or full claim settlement or a clear path to legal action.",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null,
+    "ai_insights": {
+      "strategy_confidence": 0.35,
+      "key_leverage_points": 5,
+      "negotiation_rounds": 2,
+      "estimated_timeline": 14,
+      "approach": "assertive",
+      "generation_time": 5.552884101867676,
+      "model_provider": "gemini"
+    }
+  },
+  "CASE_20250628_113305": {
+    "case_id": "CASE_20250628_113305",
+    "claim_type": "policy_document",
+    "policy_number": "1234567890",
+    "success_probability": 0.55,
+    "estimated_payout": 1250.0,
+    "created_at": "2025-06-28T11:33:05.222977",
+    "updated_at": null,
+    "status": "active",
+    "extracted_info": {
+      "document_type": "policy_document",
+      "extraction_confidence": 0.5,
+      "policy_details": {
+        "policy_number": "1234567890"
+      },
+      "claim_details": {
+        "claim_number": "s",
+        "damage_description": "Coverage - This policy provides full reimbursement for repair or replacement of"
+      },
+      "monetary_amounts": [],
+      "key_dates": [],
+      "parties_involved": [
+        "vehicle in",
+        "was driving"
+      ],
+      "coverage_types": [
+        "liability",
+        "comprehensive"
+      ],
+      "denial_reasons": [],
+      "settlement_amounts": []
+    },
+    "analysis": {
+      "success_probability": 0.55,
+      "estimated_payout_range": {
+        "minimum": 1050.0,
+        "expected": 1250.0,
+        "maximum": 1875.0,
+        "confidence": 0.4
+      },
+      "risk_factors": [
+        "Incomplete document information may weaken position",
+        "No clear monetary amounts identified",
+        "Missing timeline information may indicate missed deadlines"
+      ],
+      "strength_factors": [
+        "Identified coverage types enable targeted policy analysis"
+      ],
+      "similar_cases": [],
+      "market_comparisons": {
+        "policy_type": "auto",
+        "industry_average_increase": 0.35,
+        "success_rate_benchmark": 0.45,
+        "comparable_case_count": 3,
+        "market_conditions": "Favorable for consumer advocacy"
+      },
+      "timeline_estimate": {
+        "initial_response_days": 7,
+        "negotiation_rounds": 2,
+        "total_estimated_days": 30,
+        "maximum_timeline_days": 60
+      }
+    },
+    "strategy": {
+      "name": "Targeted Policy Analysis & Assertive Negotiation",
+      "approach": "assertive",
+      "confidence": 0.65,
+      "key_leverage_points": [
+        "Policy's liability and comprehensive coverage provisions, specifically focusing on definitions of covered events and exclusions.",
+        "The insurer's duty of good faith and fair dealing in claims handling, as mandated by state insurance regulations (specify state here).",
+        "The principle of reasonable expectations \u2013 the insured's reasonable understanding of the policy's coverage based on the policy language and marketing materials.",
+        "Potential for escalation to regulatory authorities or legal action if the insurer fails to act in good faith.",
+        "Absence of explicit denial reasons from the insurer, implying a potential weakness in their position."
+      ],
+      "recommended_actions": [
+        "Demand immediate clarification on the claim amount and any preliminary assessment from the insurer.",
+        "Conduct a thorough review of policy document 1234567890, focusing on liability and comprehensive coverage clauses relevant to the claim.",
+        "Prepare a comprehensive demand letter outlining the claim, citing relevant policy clauses, legal precedents, and the insurer's duty of good faith.",
+        "Gather all supporting documentation related to the claim, including photos, police reports, medical records (if applicable).",
+        "If the insurer fails to provide a reasonable offer, explore alternative dispute resolution (ADR) options or prepare for litigation."
+      ],
+      "legal_precedents": [
+        "Example Case 1:  [Cite a relevant case demonstrating successful claim based on policy interpretation or duty of good faith.  Include jurisdiction and court].",
+        "Example Case 2: [Cite a relevant case addressing reasonable expectations in insurance contracts. Include jurisdiction and court].",
+        "State Insurance Regulations [Cite specific regulations from the relevant state regarding claim handling and bad faith practices]"
+      ],
+      "policy_clauses": [
+        "Clause defining 'liability coverage' within policy 1234567890.",
+        "Clause defining 'comprehensive coverage' within policy 1234567890.",
+        "Clause detailing the insurer's process for claims assessment and payment within policy 1234567890."
+      ],
+      "negotiation_plan": {
+        "total_rounds": 3,
+        "estimated_duration_days": 21,
+        "rounds": [
+          {
+            "round": 1,
+            "objective": "Information Gathering and Demand Letter",
+            "key_actions": [
+              "Demand clarification on claim amount and assessment.",
+              "Send comprehensive demand letter with supporting documentation."
+            ],
+            "expected_outcome": "Insurer's formal response and proposed settlement offer (or request for additional information).",
+            "timeline_days": 7
+          },
+          {
+            "round": 2,
+            "objective": "Counter-Offer and Negotiation",
+            "key_actions": [
+              "Analyze insurer's response.",
+              "Prepare a counter-offer based on policy analysis and legal precedents.",
+              "Engage in direct negotiation."
+            ],
+            "expected_outcome": "Revised settlement offer or agreement to mediation/arbitration.",
+            "timeline_days": 7
+          },
+          {
+            "round": 3,
+            "objective": "Finalization or Alternative Dispute Resolution",
+            "key_actions": [
+              "Acceptance of final offer.",
+              "Initiate mediation/arbitration if necessary.",
+              "Prepare for litigation if necessary."
+            ],
+            "expected_outcome": "Settlement reached or strategy for next steps determined.",
+            "timeline_days": 7
+          }
+        ]
+      }
+    },
+    "file_path": null
   }
 }
